@@ -6,7 +6,7 @@
 
 #parte1 {
     padding: 200px;
-    background-image: url(assets/40717fd59ec1e5a62906c3c06abe8c4499dec1c5.png);
+    background-image: url(assets/fundo1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,13 +42,14 @@
     font-family: 'Maven Pro', sans-serif;
     font-size: 16px;
     color: #878EA1;
-    text-align: center;
 
 }
 
 #tags {
     display: flex;
     gap: 20px;
+    padding-top: 70px;
+    justify-content: center;
 }
 
 #parte2 {
@@ -57,6 +58,7 @@
 }
 
 .header2 {
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -71,13 +73,13 @@
     padding-bottom: 30px;
 }
 
-.texts2>h1 {
+.headerH1 {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
     color: #E2E4E9;
 }
 
-.texts2>span {
+.headerSpan {
     font-family: 'Asap', sans-serif;
     font-size: 24px;
     color: #E3646E;
@@ -90,6 +92,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 
 .card {
@@ -103,7 +106,7 @@
     padding: 15px;
     border: 2px solid transparent;
     border-radius: 15px;
-   
+
 }
 
 .card>img {
@@ -132,7 +135,7 @@
 }
 
 #parte3 {
-    background-color: #1A1B1F;
+    background-color: #0D0E11;
     padding: 100px;
 }
 
@@ -147,8 +150,69 @@
 
 .card2 {
     height: 130px;
-    width: 300px;;
+    width: 300px;
+    ;
     padding: 15px;
     border: 4px solid #16181D;
     border-radius: 15px;
+}
+
+#parte4 {
+    padding: 200px;
+    background-image: url(assets/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#parte4>header {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#parte4-header-span {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: #BB72E9;
+}
+
+#parte4-header-span2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: #878EA1;
+}
+
+#links {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.SocialButton {
+    display: flex;
+    background-color: #292C34;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 20px;
+    height: 60px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SocialButton-h1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: #C0C4CE;
+}
+
+.SocialButton>div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
